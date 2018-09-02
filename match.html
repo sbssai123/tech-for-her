@@ -15,7 +15,7 @@
       {{timeLimit | date: 'm:ss'}}  
     </div>
     <div>
-      <h1>Useful coding languages you should know:</h1>
+      <h1 id="heading">Match the important coding languages you should know:</h1>
     </div>
     <table class="table-top">
       <tr ng-repeat="row in deck.rows">
@@ -32,7 +32,7 @@
       </tr>
     </table>
     <div class="startbtn">
-      <button type="button" class="btn btn-default btn-lg" ng-disabled="inGame == true" ng-click="start()">Start</button>
+      <button id="start" type="button" class="btn btn-success" ng-disabled="inGame == true" ng-click="start()">Start</button>
     </div>
 
   </div>

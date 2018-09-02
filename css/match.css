@@ -1,3 +1,7 @@
+body {
+  background-color: #ffb67a;
+}
+
 .card_container {
   position: relative;
   margin: 1px auto;
@@ -92,4 +96,18 @@ table {
 
 .points {
   position: absolute;
+}
+
+#start {
+  width: 20%;
+  height: 8%;
+  font-size: 40px;
+}
+
+#heading {
+  color:  rgb(161, 46, 118);
+  font-weight: 800;
+  margin-left: 5%;
+  font-size: 50px;
+  margin-top: 5%;
 }
