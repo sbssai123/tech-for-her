@@ -9,7 +9,7 @@ from google.cloud import texttospeech
 client = texttospeech.TextToSpeechClient()
 
 # Set the text input to be synthesized
-synthesis_input = texttospeech.types.SynthesisInput(text="Hi, my name is Elena! I am the Head of Data Science at AirBnB. Here is my journey to becoming a data scientist and resources for starting this career path as a young woman.")
+synthesis_input = texttospeech.types.SynthesisInput(text= "Here is the day in the life for someone like me. I participate in data scraping, cleaning, and storage. After data is preprocessed, I train machine learning models with this data and am able to make predictions. These models can be used to predict medical diagnosis, stock prices, and more. About seventy percent of my time is spent shaping data.")
 
 # Build the voice request, select the language code ("en-US") and the ssml
 # voice gender ("neutral")
@@ -26,7 +26,7 @@ audio_config = texttospeech.types.AudioConfig(
 response = client.synthesize_speech(synthesis_input, voice, audio_config)
 
 # The response's audio_content is binary.
-with open('output.mp3', 'wb') as out:
-    # Write the response to the output file.
+with open('elena_dil.mp3', 'wb') as out:
+    # Write the response to the output file.t
     out.write(response.audio_content)
     print('Audio content written to file "output.mp3"')

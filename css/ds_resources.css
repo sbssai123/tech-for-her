@@ -1,0 +1,49 @@
+.college-image {
+    background-image: url("../img/desk.jpeg");
+    background-position: 100% top;
+    height: 100vh;
+    min-height: 100%;
+    background-size: cover;
+    position:relative;
+}
+
+.back {
+    position: absolute;
+    top:0px;
+}
+
+#back-button {
+  font-size: 25px;
+}
+
+#resources {
+    text-align: center;
+    display: none;
+    margin-top: 8%;
+    background-color: #ffe0f9;
+    border: 2px solid rgb(161, 46, 118);
+}
+
+#languages {
+    text-align: center;
+    display: none;
+    margin-top: 6%;
+    background-color: #ffe0f9;
+    border: 2px solid rgb(161, 46, 118);
+}
+
+#continue {
+    margin-left: 28%;
+    background-color: rgb(161, 46, 118);
+    padding: 12px 22px;
+    border-radius: 20px;
+    font-size:20px;
+    margin-top:30%;
+    margin-left: 20%;
+    text-align: center;
+    display: none;
+}
+
+a:hover {
+    text-decoration: none;
+}

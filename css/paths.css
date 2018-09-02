@@ -1,0 +1,38 @@
+#main {
+    background-color:#f293cc;
+    height:100vh;
+}
+
+#career {
+    text-align: center;
+    margin-top: 7%;
+    font-size: 45px;
+    font-family: 'Abril Fatface', cursive;
+    display: none;
+}
+
+.people {
+    display: none;
+}
+
+.name {
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.profile {
+    border: 2px solid rgb(161, 46, 118);
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+.title {
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 10%;
+    font-weight: 800;
+    color:#00a1ff;
+}

@@ -8,6 +8,8 @@ $(document).ready(function(){
                     $("#heading").fadeIn(1000, function(){
                         $("#head-description").fadeIn();
                         $("#explore").fadeIn(1000);
+                        $("#three-girls").fadeIn(1000);
+                        $("#show").fadeIn(1000);
                     });
                 });
             });
