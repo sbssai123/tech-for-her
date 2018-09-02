@@ -11,6 +11,10 @@
   </head>
 <body>
   <div class="cntr" ng-controller="CardController">
+    <div><a href="sara.html"><img style="height:40px; width:auto; margin:20px;" 
+        src="img/left-arrow.png"></a> 
+        <span id="back-button">Back</span>
+    </div>
     <div class="timer" ng-class="{critical:isCritical}">
       {{timeLimit | date: 'm:ss'}}  
     </div>
