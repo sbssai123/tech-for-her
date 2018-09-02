@@ -1,0 +1,18 @@
+#intro {
+    background-color:pink;
+    height: 100vh;
+}
+
+#intro-text {
+    font-size: 34px;
+    margin-top: 15%;
+    font-family: 'M PLUS 1p', sans-serif;
+   
+}
+
+#elena {
+    border: 6px solid rgb(161, 46, 118);
+    margin-top: 15%;
+    border-radius:120%;
+    background: white;
+}
