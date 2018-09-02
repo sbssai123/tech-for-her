@@ -4,7 +4,7 @@
 }
 
 #intro-text {
-    font-size: 34px;
+    font-size: 39px;
     margin-top: 9%;
     font-family: 'M PLUS 1p', sans-serif;
     display: none;
@@ -19,18 +19,19 @@
 }
 
 #intro-text a {
-    display:none;
-    margin-left: 28%;
+    display: none;
     color: white;
     background-color: rgb(161, 46, 118);
     padding: 12px 22px;
     border-radius: 20px;
     font-size:20px;
     margin-top: 20px;
+    display: block;
+    text-align: center;
 }
 
 #intro-text a:hover {
-    transform: scale(2);
+    transform: scale(1.1);
 }
 
 a:hover {

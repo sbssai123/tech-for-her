@@ -19,9 +19,9 @@
         <!--Fonts-->
         <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p|Noto+Serif" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/game_dev.css">
+        <script type="text/javascript" src="js/data_scientist.js"></script>
         <style>
             a{
-    background-color:red; /* Green */
     border: none;
     color: white;
     padding: 20px;
@@ -37,26 +37,29 @@
     </head>
      <body>
         <div class="container-fluid" id="intro">
+            <div><a href="paths.html"><img style="height:40px; width:auto; margin:20px;" 
+                src="img/left-arrow.png"></a> 
+                <span id="back-button">Back</span>
+            </div>
             <div class="row">
                 <div class="col-1"></div>
                 <div class="col-5" id="intro-text">
                     "<span style="color:rgb(0,128,128);">Hello,</span>
                     I am Kim Swift! <br>
                     <span>
-                        I am the<span style="color:rgb(0,128,128)">
+                        I am <span style="color:rgb(0,128,128)">
                          very well known for being a great video game designer.</span>
-                        I'm going to show my typical day as a game development!"
+                        I'm going to show my typical day as a game developer."
                     </span>
+                    <a id="follow" href="story_game.html">Follow My Journey</a>
                 </div>
                 <div class="col-5">
-                    <img id="elena" style="height:450px; width:auto;" src="img/mine.png">
-                    <a href="story_game.html" class="button button2" style="margin-left: 80px">Next =></a>
-                     
+                    <img id="elena" style="height:400px; width:auto;" src="img/mine.png">
                 </div>
                 <div class="col-1"></div>
             </div>
         </div>
-        <iframe src="elena_intro.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+        <iframe src="kim_intro.mp3" allow="autoplay" style="display:none" id="iframeAudio">
         </iframe> 
     </body>
 </html>

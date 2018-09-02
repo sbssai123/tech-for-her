@@ -4,6 +4,7 @@ $(document).ready(function(){
             $("#two").fadeIn(500, function(){
                 $("#three").fadeIn(500, function(){
                     $("#four").fadeIn(500);
+                    $("#finish").fadeIn(1000);
                 });
             });
         });
