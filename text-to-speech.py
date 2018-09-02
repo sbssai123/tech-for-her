@@ -9,12 +9,12 @@ from google.cloud import texttospeech
 client = texttospeech.TextToSpeechClient()
 
 # Set the text input to be synthesized
-synthesis_input = texttospeech.types.SynthesisInput(text= "Match the important coding languages you should know:")
+synthesis_input = texttospeech.types.SynthesisInput(text= "There are so many career paths for women in tech. We hope to show more young women early on different tech career paths through success stories to end the gender gap in tech.")
 
 # Build the voice request, select the language code ("en-US") and the ssml
 # voice gender ("neutral")
 voice = texttospeech.types.VoiceSelectionParams(
-    language_code='en-US-Standard-E',
+    language_code='en-US',
     ssml_gender=texttospeech.enums.SsmlVoiceGender.FEMALE)
 
 # Select the type of audio file you want returned
@@ -26,7 +26,7 @@ audio_config = texttospeech.types.AudioConfig(
 response = client.synthesize_speech(synthesis_input, voice, audio_config)
 
 # The response's audio_content is binary.
-with open('matching_game.mp3', 'wb') as out:
+with open('final.mp3', 'wb') as out:
     # Write the response to the output file.t
     out.write(response.audio_content)
     print('Audio content written to file "output.mp3"')

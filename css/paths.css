@@ -17,7 +17,6 @@
 
 .name {
     text-align: center;
-    margin-left: 10%;
     margin-top: 5%;
 }
 
@@ -29,9 +28,12 @@
     margin-left: 10%;
 }
 
+#situation {
+    margin-bottom: 0px;
+}
+
 .title {
     text-align: center;
-    margin-left: 10%;
     margin-top: 10%;
     font-weight: 800;
     color:#00a1ff;
