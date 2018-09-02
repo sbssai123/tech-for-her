@@ -1,0 +1,44 @@
+#intro {
+    background-color:pink;
+    height: 100vh;
+}
+
+#intro-text {
+    font-size: 34px;
+    margin-top: 6%;
+    font-family: 'M PLUS 1p', sans-serif;
+    display: none;
+   
+}
+
+#elena {
+    border: 6px solid rgb(161, 46, 118);
+    margin-top: 6%;
+    border-radius:120%;
+    background: white;
+    display: none;
+}
+
+#intro-text a {
+    display: none;
+    color: white;
+    background-color: rgb(161, 46, 118);
+    padding: 12px 22px;
+    border-radius: 20px;
+    font-size:20px;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
+
+#intro-text a:hover {
+    transform: scale(1.1);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#back-button {
+    font-size: 25px;
+}

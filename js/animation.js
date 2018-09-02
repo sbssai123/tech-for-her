@@ -7,7 +7,9 @@ $(document).ready(function(){
                 $("#hacker").fadeOut(2000, function(){
                     $("#heading").fadeIn(1000, function(){
                         $("#head-description").fadeIn();
-                        $("button").fadeIn(1000);
+                        $("#explore").fadeIn(1000);
+                        $("#three-girls").fadeIn(1000);
+                        $("#show").fadeIn(1000);
                     });
                 });
             });

@@ -1,0 +1,51 @@
+#intro {
+    background-color: #FF4C4C;
+    height: 100vh;
+}
+
+#intro-text {
+    margin-left: 7%;
+    font-size: 32px;
+    margin-top: 6%;
+    font-family: 'M PLUS 1p', sans-serif;
+    display: none;
+    
+}
+
+body{
+	 background-color: #FF4C4C;
+}
+
+
+#elena {
+    border: 6px solid rgb(204, 0, 34);
+    margin-top: 6%;
+    border-radius:120%;
+    background: white;
+    display: none;
+    
+}
+
+#intro-text a {
+    display: none;
+    color: black;
+    background-color: rgb(255, 255, 0);
+    padding: 12px 22px;
+    border-radius: 20px;
+    font-size:20px;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
+
+#intro-text a:hover {
+    transform: scale(1.1);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#back-button {
+    font-size: 25px;
+}

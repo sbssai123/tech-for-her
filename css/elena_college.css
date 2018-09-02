@@ -1,0 +1,73 @@
+.college-image {
+    background-image: url("../img/school.jpeg");
+    background-position: 100% center;
+    height: 100vh;
+    min-height: 100%;
+    background-size: cover;
+    position:relative;
+}
+
+#college-text {
+    position: absolute;
+    text-align: left;
+    top: 18%;
+    width: 100%;
+    font-weight: bold;
+    font-family: 'M PLUS 1p', sans-serif;
+    color: #ffcd19;
+  }
+
+  .back {
+      position: absolute;
+      top:0px;
+  }
+
+  #back-button {
+    font-size: 25px;
+}
+
+#first {
+    display: none;
+}
+
+#second {
+    display: none;
+}
+
+#third {
+    display: none;
+}
+
+#fourth {
+    display: none;
+}
+
+#door {
+    height: 200px;
+    width: 100px;
+    margin-top: 45%;
+    margin-left: 48%;
+}
+
+#arrow {
+    display: none;
+    margin-top: 20%;
+    margin-right: 5%;
+    transform: rotate(135deg);
+}
+
+#continue {
+    margin-left: 28%;
+    background-color: rgb(161, 46, 118);
+    padding: 12px 22px;
+    border-radius: 20px;
+    font-size:20px;
+    margin-top:100%;
+    margin-left: 50%;
+    text-align: center;
+    display: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
