@@ -32,6 +32,7 @@
     color:#f96dc1;
     margin-left: 55px;
     margin-top: 20%;
+    margin-bottom:0px;
     font-size: 100px;
     font-weight: bolder;
     font-family: 'Righteous', cursive;
@@ -39,9 +40,9 @@
 
 #head-description {
     display:none;
-    margin-left: 10%;
     font-size: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
+    margin-left: 7%;
 }
 
 #explore {
@@ -56,4 +57,17 @@
 
 a:hover{
     text-decoration: none;
+}
+
+#three-girls {
+    display:none;
+}
+
+#show {
+    text-align: center;
+    display: none;
+    font-size: 25px;
+    margin-top: 45%;
+    margin-bottom: 0;
+    color: rgb(161, 46, 118);
 }
