@@ -1,7 +1,7 @@
 // constant variables 
 var constants = new (function() {
-    var rows = 3;
-    var columns = 6;
+    var rows = 4;
+    var columns = 5;
     var numMatches = (rows * columns) / 2;
     this.getRows = function() { return rows; };
     this.getColumns = function() { return columns; };

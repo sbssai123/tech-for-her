@@ -10,3 +10,14 @@
 #heading {
     text-align: center;
 }
+
+#subheading {
+    text-align: center;
+    color: rgb(161, 46, 118);
+    font-weight: 900;
+    font-size: 35px;
+}
+
+#end {
+    margin-left: 25%;
+}
