@@ -54,8 +54,8 @@ function createRandom() {
  
  var hiragana = ['<html>', '<html>', 'css', 'css', 'jquery', 'PS', 'PS', 'java'
      , 'python', 'jquery', 'java', 'ruby', 'ruby', 'code', 'code', 'react'
-     , 'python', 'js', 'js', 'node', 'atom', 'atom', 'ST', 'ST'
-     , 'react', 'node', 'C++', 'C++', 'swift', 'swift', 'SQL', 'SQL'
+     , 'python', 'js', 'js', 'atom', 'atom', 'ST', 'ST'
+     , 'react'
      ];
  // set what kind of item to display
  var items = hiragana;

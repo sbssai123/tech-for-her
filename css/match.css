@@ -61,8 +61,13 @@ body {
 }
 
 table {
-	margin: 0px auto;
+  margin: 0px auto;
 }
+
+.table-top {
+  width: 50%;
+}
+
 
 .timer {
   display: block;
